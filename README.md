@@ -1,1 +1,1 @@
-# kidbright-servo
+# kidbright-arduino-board
