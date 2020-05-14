@@ -1,1 +1,1 @@
-# kidbright-arduino-board
+# kidbright-arduino-board V.1.5
