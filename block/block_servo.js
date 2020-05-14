@@ -11,12 +11,12 @@ Blockly.Blocks['esp32_servo_attach'] = {
         .appendField(new Blockly.FieldVariable("Servo1",null,["Plugin.Servo"],["Plugin.Servo"]),"instance")
         .appendField("attach pin")
 
-        //.appendField(new Blockly.FieldTextInput("1"), "pin")
-        .appendField(new Blockly.FieldDropdown([
-          ["1", "15"],
-          ["2", "17"],
+        .appendField(new Blockly.FieldTextInput("1"), "pin")
+        // .appendField(new Blockly.FieldDropdown([
+        //   ["1", "15"],
+        //   ["2", "17"],
          
-        ]), 'pin')
+        // ]), 'pin')
 
     this.setInputsInline(true);
     this.setPreviousStatement(true, null);
